@@ -1,0 +1,23 @@
+import java.util.Scanner;
+	class digit
+{
+	public static void main(String args[])
+	{
+		int r,res=0,mul=1;
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int x=sc.nextInt();
+		int y=sc.nextInt();
+		while(n>0)
+		{
+			r=n%10;
+			if(r==x)
+				res=res+(y*mul);
+				else
+res=res+(r*mul);
+mul*=10;
+n=n/10;
+}
+System.out.println(res);
+}
+}
