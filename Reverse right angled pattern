@@ -6,7 +6,6 @@ class Pattern2
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter n value");
 		int n=sc.nextInt();
-		System.out.println(n);
 		int i,j;
 		for(i=1;i<=n;i++)
 		{
