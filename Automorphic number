@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Automorphic
+{
+public static void main(String args[])
+{
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+int a;
+int s=1;
+int c=1;
+a=n;
+s=n*n;
+while (n!=0)
+{
+c=c*10;
+n=n/10;
+}
+if(s%c==a)
+{
+System.out.println("Automorphic Number");
+}
+else
+{
+System.out.println("Not Automorphic Number");
+}
+}
+}
